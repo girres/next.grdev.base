@@ -1,3 +1,4 @@
+import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
@@ -16,7 +17,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <p>
+          <p className="text-3xl font-bold underline text-red-400 ">
             Get started by editing&nbsp;
             <code className={styles.code}>src/pages/index.js</code>
           </p>
