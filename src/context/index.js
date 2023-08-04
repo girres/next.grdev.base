@@ -1,23 +1,29 @@
-import React, { createContext } from 'react'
-import PropTypes from "prop-types"
+"use client";
+
+import React, { createContext } from "react";
+import PropTypes from "prop-types";
 
 // TOASTIFY
-import { ToastContainer } from 'react-toastify'
+import { ToastContainer } from "react-toastify";
 
 // Alerts
-import Alerts from "@/context/alerts"
+import Alerts from "./alerts";
 
-export const Context = createContext({})
+export const Context = createContext({});
 
 export const Provider = ({ children }) => {
-    return (
-        <Context.Provider value={Object.assign({}, Alerts)}>
-            {children}
-            <ToastContainer />
-        </Context.Provider>
-    )
-}
+  return (
+    <Context.Provider
+      value={{
+        Alerts,
+      }}
+    >
+      {children}
+      <ToastContainer />
+    </Context.Provider>
+  );
+};
 
 Provider.propTypes = {
-    children: PropTypes.object
+  children: PropTypes.object,
 };
