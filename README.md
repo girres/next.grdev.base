@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## NextJS V 14.x.x by GR Dev
+## Next JS @ 14.x.x by GR Dev
 
 ```bash
 echo 'gr develop => https://grdevelop.com/'
