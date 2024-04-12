@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Next JS @ 14.x.x by GR Dev
 
 ```bash
-echo 'gr develop => https://grdevelop.com/'
+console.log('gr develop => ', 'https://grdevelop.com/');
 ```
 
 ## Getting Started
