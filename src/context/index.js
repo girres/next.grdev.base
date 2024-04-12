@@ -1,13 +1,13 @@
-"use client";
+'use client';
 
-import React, { createContext } from "react";
-import PropTypes from "prop-types";
+import React, { createContext } from 'react';
+import PropTypes from 'prop-types';
 
 // TOASTIFY
-import { ToastContainer } from "react-toastify";
+import { ToastContainer } from 'react-toastify';
 
 // Alerts
-import Alerts from "./alerts";
+import Alerts from './alerts';
 
 export const Context = createContext({});
 
