@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+// Import another styles
+@import "./font.scss";
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply m-0 bg-white text-gray-900;
+  @apply kanit-regular text-xl lg:text-2xl;
+
+  main {
+    @apply transition-all duration-300;
+  }
+
+  &.panel-menu-open {
+    @apply overflow-hidden;
+
+    main {
+      @apply blur-sm;
+    }
+  }
+}

@@ -1,13 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 
-const colors = require("tailwindcss/colors");
+const colors = require('tailwindcss/colors');
 
 const customColors = {
-  main: "#E31A12",
+  main: '#E31A12',
 };
 
 module.exports = {
-  content: ["./src/**/*.{js,ts,jsx,tsx}"],
+  content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: Object.assign(colors, customColors),
@@ -16,5 +16,5 @@ module.exports = {
   daisyui: {
     themes: false,
   },
-  plugins: [require("daisyui")],
+  plugins: [require('daisyui')],
 };
